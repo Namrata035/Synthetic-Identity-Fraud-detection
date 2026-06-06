@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://i.pinimg.com/originals/72/c0/55/72c05566763a3d799eae1928879e6f78.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:0;
+}
+
+.card {
+  background:white;
+  padding:20px 30px;
+  width:420px;
+  border-radius:12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+
+.card h2 { text-align:center; color:#333; margin-bottom:15px; }
+.card input, .card select {
+  width:100%; padding:10px; margin:8px 0; border-radius:6px; border:1px solid #ddd;
+}
+.btn {
+  background:#007bff; color:white; border:none; padding:12px; width:100%; border-radius:8px; cursor:pointer;
+}
+.btn:hover { background:#0056b3; }
